@@ -1,0 +1,256 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Default page Style*/
+/*-----------------*/
+header{
+	height: 80px;
+	width: 100%;
+	background-color: white;
+	opacity: 90%;
+	z-index: 12;
+	position: fixed;
+}
+
+
+body{		
+	background-image: url("images/theme/background3.jpg");
+	background-size: cover;	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	min-width: 1300px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.logo h1 span{
+	color: gray;
+	cursor: default;
+	font-weight: 800;
+}
+
+.logo h1{
+	width: 30%;
+	float: left;
+	color: black;
+	line-height: 80px;
+	cursor: default;
+	font-family: candara;
+	font-weight: 300;
+}
+/*Navigation Bar*/
+/*-------------*/
+
+ul#menu li{
+	display: inline-block;
+	float: right;
+	line-height: 70px;
+	position: relative;
+}
+		
+ul#menu li a{
+	text-decoration: none;
+	margin: 20px;
+	padding: 15px;
+	font-size: 30px;
+	color: black;
+	transition: 0.8s all;
+}
+
+ul#menu li a:hover{
+	background: #999999;
+}
+/*Dropdown menu*/
+/*------------*/
+
+ul#menu li ul li{
+	display: none;
+	background-color: white;
+	min-width: 100px;
+	float: none;
+	z-index: 1;
+}
+
+ul#menu li:hover ul li{
+	display: block;	
+	transition: 0.5s all;
+}
+
+ul#menu li ul li a{
+	font-size: 16px;
+	margin: 5px 10px;
+	
+}
+		
+
+.main{
+	display: block;
+	height: 1000px;
+	opacity: 100%;
+	background-color: white;
+	cursor: default;
+	padding: 50px;
+	border-style: groove;
+}
+
+/*About page*/
+/*-----------*/
+
+#sabout{
+	margin: -380px 500px;
+	height: 400px;
+	border-radius: 50px;
+	position: relative;
+	z-index: -5;
+}
+
+#sabout h2{
+	margin: 100px;
+	font-size: 25px;
+}
+#sabout p{
+	margin: -80px 30px;
+	text-align: left;
+	display: block;
+}
+
+#contactus{
+	display: block;
+	margin: 300px;
+}
+#contactus a{
+	font-size: 30px;
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px;
+	border-style: input;
+	border-width: 1px;
+	border-radius: 10px 10px 10px 10px;
+}
+#contactus a:hover{
+	background-color: #b3b3b3;
+	transition: 0.5s all;
+}
+
+/*Contact page*/
+/*-----------*/
+
+#scontact{
+	margin: -380px 500px;
+	height: 400px;
+	border-radius: 50px;
+	position: relative;
+	z-index: -5;	
+}
+#conh2{
+	margin: 200px;
+	font-size: 35px;
+}
+#conh22{
+	margin: 50px;	
+}
+
+.contact{
+	margin: 230px;
+}
+
+.contact img{
+	width: 45px;
+	margin: 15px;
+	padding: -100px;
+	border-radius: 50%;
+	transition: 0.5s all;
+}
+.contact img:hover{
+	box-shadow: 3px 3px 3px black;
+}
+
+.contact a{
+	text-decoration: none;
+}
+
+
+@keyframes banner{
+	0%{
+		opacity: 0%; 
+		width: 0%;
+	}
+	25%{
+		opacity: 30%; 
+	}
+	50%{
+		opacity: 60%;  
+	}
+	75%{
+		opacity: 85%; 
+
+	}
+	100%{
+		opacity: 100%;
+		width: 100%;
+	}
+}
+
+.banner-area{
+	line-height: 600px;
+	cursor: default;
+	animation-name: banner;
+	animation-duration: 1s;
+}
+
+.banner-area img{
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 1px;
+	width: 200px;
+	box-shadow: 3px 3px 3px black;
+	position: relative;
+	z-index: 3;
+}
+
+/*Cars page JDM*/
+/*------------*/
+
+#scar img{
+	padding: -50px;
+	width: 1000px;
+	border-style: solid;
+	border-radius: 10px 10px 10px 10px;
+
+}
+
+/*Cars-JDM Page*/
+/*------------*/
+.carsjdm{
+	display: block;
+	height: 7000px;
+	opacity: 100%;
+	background-color: white;
+	cursor: default;
+	padding: 50px;
+	border-style: groove;	
+}
+
+.carsjdm img{
+	display: block;
+	width: 650px;
+	margin: 30px 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: navy;
+	/*/float: left;/*/
+}
+
+.carsjdm h2{
+	font-family: fantasy;
+	font-size: 30px;
+	margin: 30px 5px;
+	padding: 25px;
+}

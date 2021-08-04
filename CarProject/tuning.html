@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car Tuning</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Car Tuning">
+	<meta name="keywords" content="Car Tuning page">
+	<meta name+"author" content="Dor Shemesh">
+	<link rel="stylesheet" type="text/css" href="TuningStyle.css">
+	<style>
+	
+	</style>
+	</head>
+	<body>
+	<header>
+			</div>
+			<nav>
+			<ul id="menu">
+				<li><a href="index.html" rel="prev">Back</a></li>
+			</ul>
+			</nav>
+			</header>
+		<h1 id="title">Car<span>Tuning</span> Program</h1>
+	<div id="gtr" class="tune">
+		<img id="gtrPic" src="images/GTR/GTR.jpg">
+		<img id="gtrRims" src="images/GTR/GTR_rims.png">
+	</div>
+	
+	<div id="tuneButtons" class="tuneButtons">
+		<img onClick="getRims()" id="rims" src="images/buttons/rims.png">
+		<img onClick="getRims2()" id="rims2" src="images/buttons/rims2.png">
+		<img onClick="getRims3()" id="rims3" src="images/buttons/rims3.png">
+		<img onClick="getRims4()" id="rims4" src="images/buttons/rims4.png">
+	</div>
+	
+	<div class="colorButtons">
+		<img onClick="colorBlack()" id="blackC" src="images/buttons/black.png">
+		<img onClick="colorWhite()" id="whiteC" src="images/buttons/white.png">
+		<img onClick="colorBlue()" id="blueC" src="images/buttons/blue.png">
+		<img onClick="colorGreen()" id="greenC" src="images/buttons/green.png">
+		<img onClick="colorRed()" id="redC" src="images/buttons/red.png">
+		<img onClick="colorOrange()" id="orangeC" src="images/buttons/orange.png">
+		<img onClick="colorYellow()" id="yellowC" src="images/buttons/yellow.png">
+	</div>
+	<script>
+			
+		//Color Buttons
+		var blackBtn = document.getElementById("blackC");
+		var whiteBtn = document.getElementById("whiteC");
+		var BlueBtn = document.getElementById("blueC");
+		var greenBtn = document.getElementById("greenC");
+		var redBtn = document.getElementById("redC");
+		var orangeBtn = document.getElementById("orangeC");
+		var yellowBtn = document.getElementById("yellowC");
+		
+		var blackClicked = false;
+		var whiteClicked = false;
+		var blueClicked = false;
+		var greenClicked = false;
+		var redClicked = false;
+		var orangeClicked = false;
+		var yellowClicked = false;
+		
+		//Parts Buttons
+		var gtrPicc = document.getElementById("gtrPic");
+		var gtrRimsPic = document.getElementById("gtrRims");
+		var rimsButton = document.getElementById("rims");
+		var rimsClicked = false;
+		var rimsClicked2 = false;
+		var rimsClicked3 = false;
+		var rimsClicked4 = false;
+		
+		//Audio Vars
+		var drillPlay = false;
+		var sprayPlay = false;
+		
+		var Spray = new Audio("audio/Spray.mp3");
+		//if (Spray.2 > 0 && !Spray.ended) {
+		//sprayPlay = true;
+		//alert("Hello");
+		//} else {
+		//sprayPlay = false;
+		//}
+		
+		
+		var Drill = new Audio("audio/Drill.mp3");
+		//if (Drill.currentTime > 0 && !Drill.paused) {
+		//drillPlay = true;
+		//} else {
+		//sprayPlay = false;
+		//}
+
+		
+	function getRims(){	
+		if(rimsClicked == false){
+		Drill.play();
+		rimsClicked = true;
+		rimsClicked4 = false;
+		rimsClicked3 = false;
+		rimsClicked2 = false;
+		gtrRimsPic.style.display='block';
+		gtrRimsPic.src="images/GTR/Gtr_rims.png";
+		}
+	else{
+		rimsClicked = false;
+		gtrRimsPic.style.display='none';
+		}
+	}
+	
+	function getRims2(){
+		if(rimsClicked2 == false){
+		Drill.play();
+		rimsClicked2 = true;
+		rimsClicked4 = false;
+		rimsClicked3 = false;
+		rimsClicked = false;
+		gtrRimsPic.style.display='block';
+		gtrRimsPic.src="images/GTR/Gtr_rims2.png";
+		}
+		else{
+		rimsClicked2 = false;
+		gtrRimsPic.style.display='none';
+		}
+	}
+	
+	function getRims3(){
+		if(rimsClicked3 == false){
+		Drill.play();
+		rimsClicked3 = true;
+		rimsClicked4 = false;
+		rimsClicked2 = false;
+		rimsClicked = false;
+		gtrRimsPic.style.display='block';
+		gtrRimsPic.src="images/GTR/Gtr_rims3.png";
+		}
+		else{
+		rimsClicked3 = false;
+		gtrRimsPic.style.display='none';
+		}
+	}
+	
+	function getRims4(){
+		if(rimsClicked4 == false){
+		Drill.play();
+		rimsClicked4 = true;
+		rimsClicked3 = false;
+		rimsClicked2 = false;
+		rimsClicked = false;
+		gtrRimsPic.style.display='block';
+		gtrRimsPic.src="images/GTR/Gtr_rims4.png";
+		}
+		else{
+		rimsClicked4 = false;
+		gtrRimsPic.style.display='none';
+		}
+	}
+
+		
+	
+		//Color functions
+		
+		//Black
+		
+	function colorBlack(){
+		if(blackClicked == false){
+		Spray.play();
+		blackClicked = true;
+		whiteClicked = false;
+		blueClicked = false;
+		greenClicked = false;
+		redClicked = false;
+		orangeClicked = false;
+		yellowClicked = false;
+		gtrPicc.src="images/GTR/colors/black.jpg";
+		//blackBtn.style.borderColor='';
+		//whiteBtn.style.borderColor='';
+		//blueBtn.style.borderColor='';
+		//greenBtn.style.borderColor='';
+		//redBtn.style.borderColor='';
+		//orangeBtn.style.borderColor='';
+		//yellowBtn.style.borderColor='';
+		}
+	else{
+		blackClicked = false;
+		//blackBtn.style.borderColor='';
+		}
+	}
+	
+	//White
+	
+	function colorWhite(){
+		if(whiteClicked == false){
+		Spray.play();
+		blackClicked = false;
+		whiteClicked = true;
+		blueClicked = false;
+		greenClicked = false;
+		redClicked = false;
+		orangeClicked = false;
+		yellowClicked = false;
+		gtrPicc.src="images/GTR/colors/white.jpg";
+		//blackBtn.style.borderColor='';
+		//whiteBtn.style.borderColor='';
+		//blueBtn.style.borderColor='';
+		//greenBtn.style.borderColor='';
+		//redBtn.style.borderColor='';
+		//orangeBtn.style.borderColor='';
+		//yellowBtn.style.borderColor='';
+		}
+	else{
+		whiteClicked = false;
+		//whiteBtn.style.borderColor='';
+		}
+	}
+	
+	//Blue
+	
+	function colorBlue(){
+		if(blueClicked == false){
+		Spray.play();
+		blackClicked = false;
+		whiteClicked = false;
+		blueClicked = true;
+		greenClicked = false;
+		redClicked = false;
+		orangeClicked = false;
+		yellowClicked = false;
+		gtrPicc.src="images/GTR/colors/blue.jpg";
+		//blackBtn.style.borderColor='';
+		//blueBtn.style.borderColor='';
+		//whiteBtn.style.borderColor='';
+		//greenBtn.style.borderColor='';
+		//redBtn.style.borderColor='';
+		//orangeBtn.style.borderColor='';
+		//yellowBtn.style.borderColor='';
+		}
+	else{
+		blueClicked = false;
+		//blueBtn.style.borderColor='';
+		}
+	}
+	
+	//Red
+	
+	function colorRed(){
+		if(redClicked == false){
+		Spray.play();
+		blackClicked = false;
+		whiteClicked = false;
+		blueClicked = false;
+		greenClicked = false;
+		redClicked = true;
+		orangeClicked = false;
+		yellowClicked = false;
+		gtrPicc.src="images/GTR/colors/red.jpg";
+		//blackBtn.style.borderColor='';
+		//whiteBtn.style.borderColor='';
+		//blueBtn.style.borderColor='';
+		//greenBtn.style.borderColor='';
+		//redBtn.style.borderColor='';
+		//orangeBtn.style.borderColor='';
+		//yellowBtn.style.borderColor='';
+		}
+	else{
+		redClicked = false;
+		//redBtn.style.borderColor='';
+		}
+	}
+	
+	//Orange
+	
+	function colorOrange(){
+		if(orangeClicked == false){
+		Spray.play();
+		blackClicked = false;
+		whiteClicked = false;
+		blueClicked = false;
+		greenClicked = false;
+		redClicked = false;
+		orangeClicked = true;
+		yellowClicked = false;
+		gtrPicc.src="images/GTR/colors/orange.jpg";
+		//blackBtn.style.borderColor='';
+		//whiteBtn.style.borderColor='';
+		//blueBtn.style.borderColor='';
+		//greenBtn.style.borderColor='';
+		//redBtn.style.borderColor='';
+		//orangeBtn.style.borderColor='';
+		//yellowBtn.style.borderColor='';
+		}
+	else{
+		orangeClicked = false;
+		//orangeBtn.style.borderColor='';
+		}
+	}
+	
+	//Yellow
+	
+	function colorYellow(){
+		if(yellowClicked == false){
+		Spray.play();
+		blackClicked = false;
+		whiteClicked = false;
+		blueClicked = false;
+		greenClicked = false;
+		redClicked = false;
+		orangeClicked = false;
+		yellowClicked = true;
+		gtrPicc.src="images/GTR/colors/yellow.jpg";
+		//blackBtn.style.borderColor='';
+		//whiteBtn.style.borderColor='';
+		//blueBtn.style.borderColor='';
+		//greenBtn.style.borderColor='';
+		//redBtn.style.borderColor='';
+		//orangeBtn.style.borderColor='';
+		//yellowBtn.style.borderColor='';
+		}
+	else{
+		yellowClicked = false;
+		//yellowBtn.style.borderColor='';
+		}
+	}
+	
+	//Green
+	function colorGreen(){
+		if(greenClicked == false){
+		Spray.play();
+		blackClicked = false;
+		whiteClicked = false;
+		blueClicked = false;
+		greenClicked = true;
+		redClicked = false;
+		orangeClicked = false;
+		yellowClicked = false;
+		gtrPicc.src="images/GTR/colors/green.jpg";
+		//blackBtn.style.borderColor='';
+		//whiteBtn.style.borderColor='';
+		//blueBtn.style.borderColor='';
+		//greenBtn.style.borderColor='';
+		//redBtn.style.borderColor='';
+		//orangeBtn.style.borderColor='';
+		//yellowBtn.style.borderColor='';
+		}
+	else{
+		greenClicked = false;
+		//greenBtn.style.borderColor='';
+		}
+	}
+		
+		
+	</script>
+	</body>
+	</html>
