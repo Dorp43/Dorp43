@@ -1,0 +1,70 @@
+body{
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	overflow: hidden;
+	font-family: Arial;
+}
+
+.avatar{
+	width: 120px;
+}
+
+input{
+	display: block;
+	margin: 10px;
+	opacity: 100%;
+	width: 180px;
+	height: 20px;
+}
+
+fieldset{
+	background: skyblue;
+	width: 300px;
+	border-radius: 10px;
+	background: #f3f3f3;
+	opacity: 95%;
+	margin: 60px;
+}
+
+h1{
+	font-family: Arial;
+}
+
+h2{
+	font-family: Arial;
+	font-size: 15px;
+}
+
+a{
+	color: red;
+}
+
+#submitbtn{
+	height: 35px;
+	font-size: 25px;
+	font-family: Arial;
+	background-color: #b3b3b3;
+	border-radius: 10px;
+	border-style: none;
+	cursor: pointer;
+}
+
+#submitbtn:hover{
+	background-color: #cccccc;
+}
+
+a:hover{
+	color: #ff8566;
+}
+
+
+/*--Back-Sign--*/
+
+
+

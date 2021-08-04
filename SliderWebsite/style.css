@@ -1,0 +1,161 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-family: candara;
+}
+
+.slider{
+	overflow: hidden;
+	width: 100%;
+	height: 100vh;
+}
+
+.slider figure div{
+	float: left;
+	width: 20%;
+}
+
+.slider figure img{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+}
+	
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	animation: animate 20s infinite;
+}
+
+p{
+	position: fixed;
+	color: #fff;
+	font-size: 70px;
+	text-align: center;
+	padding-top: 250px;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100vh;
+}
+
+@keyframes animate{
+	0%{left: 0%;}
+	10%{left: 0%;}
+	12%{left: -100%;}
+	22%{left: -100%;}
+	24%{left: -200%;}
+	34%{left: -200%;}
+	36%{left: -300%;}
+	46%{left: -300%;}
+	48%{left: -400%;}
+	58%{left: -400%;}
+	60%{left: -300%;}
+	70%{left: -300%;}
+	72%{left: -200%;}
+	82%{left: -200%;}
+	84%{left: -100%;}
+	94%{left: -100%;}
+	96%{left: 0;}
+}
+
+
+/*Header bar*/
+
+.header1{
+	height: 70px;
+	width: 100%;
+	background-color: white;
+	opacity: 90%;
+	z-index: 12;
+	position: fixed;
+}
+
+
+ul#menu li{
+	display: inline-block;
+	float: right;
+	line-height: 70px;
+	position: relative;
+}
+		
+ul#menu li a{
+	text-decoration: none;
+	margin: 20px;
+	padding: 15px;
+	font-size: 30px;
+	color: black;
+	transition: 0.8s all;
+}
+
+ul#menu li a:hover{
+	background: #999999;
+}
+
+/*--Logo--*/
+.logo h1 span{
+	color: gray;
+	cursor: default;
+	font-weight: 800;
+}
+
+.logo h1{
+	width: 30%;
+	float: left;
+	color: black;
+	line-height: 70px;
+	cursor: default;
+	font-weight: 300;
+}
+
+/*--Header 2--*/
+
+.header2{
+	margin: 250px;
+	padding: 50px;
+	width: 50%;
+	height: 200px;
+	background-color: white;
+	opacity: 80%;
+	z-index: 12;
+	position: fixed;
+	border-radius: 10px;
+}
+
+.h1info{
+	font-size: 50px;
+	text-align: center;
+}
+
+.header2 h2{
+	text-align: center;
+	font-size: 30px;
+	margin: 15px;
+}
+
+.header2 label{
+	font-size: 20px;
+}
+
+
+.content{
+	width: 500px;
+	height: 800px;
+	background-color: white;
+}
+
+	
+	
