@@ -43,18 +43,15 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="50" height="50"/>
         
 <div align="left">  
+  <h3> Technical Skills:</h3>
+<ul>
+  <li>ReactJS, Redux, Typescript, JIST </li>
+  <li>JavaScript (ES6+), CSS3, HTML5 </li>
+  <li>SQL, NoSQL (Firebase), MongoDB </li>
+  <li>Node.js, Python, Java, C, Rust </li>
+  <li>Git, Linux - Bash </li>
+</ul>
         
-⁃	ReactJS, Redux, Typescript, JIST
-        
-⁃	JavaScript (ES6+), CSS3, HTML5
-        
-⁃	SQL, NoSQL (Firebase), MongoDB
-        
-⁃	Node.js, Python, Java, C, Rust
-        
-⁃	Git, Bash Scripting
-        
-⁃	Linux
 </div>
         
 ### :fire: My Stats :      
@@ -62,7 +59,6 @@
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=dorp43&theme=dark&background=000000)](https://git.io/streak-stats)
 
----
         
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dorp43)](https://github.com/anuraghazra/github-readme-stats)
         
