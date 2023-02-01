@@ -8,6 +8,7 @@
 </div>
 
 
+<!-- Personal Data -->
 
 <div id="badges", align="center">
  
@@ -22,10 +23,13 @@
 </div>
         
 ---
-
+  
+<!-- Coding Languages Title -->
         
 ### :hammer_and_wrench: Languages and Tools :
+
 <!-- Coding Languages -->
+  
 <div align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="50" height="50"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
@@ -41,19 +45,34 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="60" height="60"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" title="AWS" alt="AWS" width="60" height="50"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="50" height="50"/>
-        
+ 
+<!-- Technical Skills -->
+ 
 <div align="left">  
   <h3> Technical Skills:</h3>
 <ul>
-  <li>ReactJS, Redux, Typescript, JIST </li>
-  <li>JavaScript (ES6+), CSS3, HTML5 </li>
-  <li>SQL, NoSQL (Firebase), MongoDB </li>
-  <li>Node.js, Python, Java, C, Rust </li>
-  <li>Git, Linux - Bash </li>
+  <li> <b>Web-Developer:</b> </li>
+  <ul>
+    <li> <b>Frontend:</b> ReactJS, Redux, TypeScript, JIST, JavaScript, CSS </li>
+    <li> <b>Backend:</b>  NodeJS, Python </li>
+  </ul>
+  <li><b> Data-Analysis:</b> </li>
+  <ul>
+    <li><b>Python:</b> Pandas, TA-Lib, LTSM, Anaconda, XGBoost, Configure files, Loggers</li>
+  </ul>
+  <li><b> Databases: </b> </li>
+  <ul>
+    <li><b>Enviorment:</b> SQL, MongoDB, Firebase, AWS </li>
+  </ul>
+  <li><b> Additional Technologies: </b></li>
+  <ul>
+    <li><b>Coding Languages:</b> Java, C, Rust, Linux - Bash </li>
 </ul>
         
 </div>
-        
+  
+<!-- My Dev Skills -->
+  
 ### :fire: My Stats :      
 ---
 
