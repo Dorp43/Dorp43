@@ -12,9 +12,6 @@
 
 <div id="badges", align="center">
  
-  <a href="www.linkedin.com/in/dor-shemesh">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
   
 📫 Email: Dor9000@gmail.com
         
@@ -49,26 +46,42 @@
 <!-- Technical Skills -->
  
 <div align="left">  
-  <h3> Technical Skills:</h3>
-<ul>
-  <li> <b>Web-Developer:</b> </li>
+  <h3>🛠 Technical Skills</h3>
+
   <ul>
-    <li> <b>Frontend:</b> ReactJS, Redux, TypeScript, JIST, JavaScript, CSS </li>
-    <li> <b>Backend:</b>  NodeJS, Python </li>
+    <li><b>Full-Stack Web Development:</b>
+      <ul>
+        <li><b>Frontend:</b> React.js, Redux, TypeScript, JavaScript (ES6+), HTML5, CSS3</li>
+        <li><b>Backend:</b> Node.js, Python, REST APIs</li>
+      </ul>
+    </li>
+
+    <li><b>Machine Learning & Data Analysis:</b>
+      <ul>
+        <li><b>Python:</b> PyTorch, Pandas, NumPy, TA-Lib, XGBoost, LSTM</li>
+        <li><b>Tools:</b> Anaconda, Data Processing Pipelines, Configuration Files, Logging Systems</li>
+      </ul>
+    </li>
+
+    <li><b>Databases & Cloud:</b>
+      <ul>
+        <li>SQL, MongoDB, Firebase, AWS</li>
+      </ul>
+    </li>
+
+    <li><b>Programming Languages:</b>
+      <ul>
+        <li>Python, JavaScript, TypeScript, Java, C, Rust</li>
+      </ul>
+    </li>
+
+    <li><b>Development Environment:</b>
+      <ul>
+        <li>Linux, Bash, Git, CLI Tools</li>
+      </ul>
+    </li>
   </ul>
-  <li><b> Data-Analysis:</b> </li>
-  <ul>
-    <li><b>Python:</b> Pandas, TA-Lib, LTSM, Anaconda, XGBoost, Configure files, Loggers</li>
-  </ul>
-  <li><b> Databases: </b> </li>
-  <ul>
-    <li><b>Enviorment:</b> SQL, MongoDB, Firebase, AWS </li>
-  </ul>
-  <li><b> Additional Technologies: </b></li>
-  <ul>
-    <li><b>Coding Languages:</b> Java, C, Rust, Linux - Bash </li>
-</ul>
-        
+
 </div>
   
 <!-- My Dev Skills -->
